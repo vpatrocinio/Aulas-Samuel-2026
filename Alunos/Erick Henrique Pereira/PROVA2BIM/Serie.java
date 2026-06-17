@@ -42,9 +42,17 @@ public class Serie {
         return id;
     }
 
+    public void setId(int id) {
+        this.id = id;
+    }
+
 
     public String getNome() {
         return nome;
+    }
+
+    public void setNome(String nome) {
+        this.nome = nome;
     }
 
 
@@ -52,9 +60,17 @@ public class Serie {
         return status;
     }
 
+    public void setStatus(String status) {
+        this.status = status;
+    }
+
 
     public String getEstreia() {
         return estreia;
+    }
+
+    public void setEstreia(String estreia) {
+        this.estreia = estreia;
     }
 
 
@@ -62,9 +78,17 @@ public class Serie {
         return fim;
     }
 
+    public void setFim(String fim) {
+        this.fim = fim;
+    }
+
 
     public double getNota() {
         return nota;
+    }
+
+    public void setNota(double nota) {
+        this.nota = nota;
     }
 
 
@@ -72,14 +96,26 @@ public class Serie {
         return emissora;
     }
 
+    public void setEmissora(String emissora) {
+        this.emissora = emissora;
+    }
+
 
     public String getGeneros() {
         return generos;
     }
 
+    public void setGeneros(String generos) {
+        this.generos = generos;
+    }
+
 
     public String getSumario() {
         return sumario;
+    }
+
+    public void setSumario(String sumario) {
+        this.sumario = sumario;
     }
 
 
